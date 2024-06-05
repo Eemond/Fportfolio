@@ -1,0 +1,843 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <title>CTLE </title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class='bx bx-user nav__logo-icon'></i> CTLE
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#gallery" class="nav__link">Gallery</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main" id="home">
+        <!--==================== HOME ====================-->
+        <section class="home">
+            <div class="home__container container grid preview-trigger">
+                <div class="home__img-bg ">
+                    <img src="{% static 'img/intro.png' %}" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/profile.php?id=100073496212505" target="_blank"
+                        class="home__social-link">
+                        Facebook
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXFBHrTmJLgfDnflZMSzvqwVHxxRxpVnRvZzFjwJtpnpGzGccsRwzLNLXcJSwJWwSjXPC"
+                        target="_blank" class="home__social-link">
+                        Gmail
+                    </a>
+                    <a href="https://www.instagram.com/_emond_/" target="_blank" class="home__social-link">
+                        Instagram
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Crafting Tomorrow's Learning Experience</h1>
+                    <p class="home__description">
+                        As I set out on my journey as a future developer, I am driven by a profound sense of curiosity
+                        and excitement. In a world where technology evolves at a dizzying pace, the role of a developer
+                        has never been more crucial. Like a future educator shaping minds, I see myself shaping the
+                        digital landscape, crafting solutions that inspire and empower.
+                    </p>
+                </div>
+        </section>
+        <!--==================== about ====================-->
+        <section class="about section container " id="about">
+            <h2 class="section__title">
+                ABOUT ME
+            </h2>
+
+            <div class="about__container grid ">
+                <article class="about__card preview-trigger">
+                    <span class="about__tag">02-19-2024</span>
+
+                    <img src="{% static 'img/pic1.jpg' %}" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h3 class="about__title">Adaptability and Flexibility</h3>
+                        <p class="about__description">
+                            In today's dynamic work environments, being adaptable and flexible thats allows me
+                            to adjust to changing circumstances, embrace new technologies, and thrive in various
+                            situations.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="about__card preview-trigger">
+                    <span class="about__tag">03-21-2024</span>
+
+                    <img src="{% static 'img/pic2.jpg' %}" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h3 class="about__title">Time Management and Organization</h3>
+                        <p class="about__description">
+                            One of my skills is efficiently managing tasks, setting priorities, and meeting deadlines
+                            are essential skills that
+                            contribute to productivity and success in any role.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="about__card preview-trigger">
+                    <span class="about__tag">01-04-2024</span>
+
+                    <img src="{% static 'img/pic3.jpg' %}" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h3 class="about__title">Teamwork and Collaboration</h3>
+                        <p class="about__description">
+                            As a Beginner developer, I am a team player not in a game also in work who is able to work
+                            with
+                            others to achieve a common goal, and show others people how possibly achieve successful gold
+                            by working together with smile on their faces.
+                        </p>
+                    </div>
+            </div>
+        </section>
+        <!-- user -->
+        <section class="story section container">
+            <div class="story__container grid">
+                <div class="story__data">
+                    <h2 class="section__title story__section-title">
+                        GREETINGS!
+                    </h2>
+
+                    <h1 class="story__title">
+                        I'M<br>REYMOND JAMES RAMOS
+                    </h1>
+                    <p>
+                        Student of <b>Technical University of the Philippines - Cavite Campus</b>,course of <b>Batchelor
+                            Technical Vocational
+                            Technology Education Major Computer Programming</b> the Age of <b>19 Years Old.</b> , I'm
+                        here to share my Knowledge and Experiences in my own journey.
+                    </p>
+                    <br>
+                    <a class='bx bxl-gmail'
+                        href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXFBHrTmJLgfDnflZMSzvqwVHxxRxpVnRvZzFjwJtpnpGzGccsRwzLNLXcJSwJWwSjXPC">
+                        reymondjames.ramos@gsfe.tupcavite.edu.ph
+                    </a>
+                </div>
+
+                <div class="story__images preview-trigger">
+                    <img src="{% static 'img/about.jpg' %}" alt="" class="story__img">
+                    <div class="story__square"></div>
+                </div>
+            </div>
+        </section>
+        <!--                   Steps                      -->
+        <main class="main-gallery">
+            <section id="steps-1675">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <span class="cs-topper"></span>
+                        <h2 class="section__title">EDUCATION</h2>
+                    </div>
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <span class="cs-number">ELEM</span>
+                            <h3 class="cs-h3">Moonwalk Elemtary School</h3>
+                            <p class="cs-item-text">
+                                Grade 1-6 <b>Perfect Attendance</b>
+                                Grade 1-4 <b>Top 5 and Best in Mathematics</b>
+                                <br>
+                                Grade 5 <b>Top 6 and Most Attentive Student</b>
+                                <br>
+                                Grade 6 <b>Top 10 and Most Behave Student</b>
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <span class="cs-number">JHS</span>
+                            <h3 class="cs-h3">Golden Acress National High School</h3>
+                            <p class="cs-item-text">
+                                Grade 7-8 <b>Perfect Attendance</b>
+                                <br>
+                                Grade 8 <b>Top 6 and Best in Mathemetics</b>
+                                <br>
+                                Grade 9 <b>Yellow Stripe Belter Junior Taekwando Campus</b>
+                                <br>
+                                Grade 9 <b>Sportmanship</b>
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <span class="cs-number">SHS </span>
+                            <h3 class="cs-h3">SHS Doña Josepa Campus</h3>
+                            <p class="cs-item-text">
+                                Grade 11 & 12 <b>Graduate</b>
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <span class="cs-number">COLL</span>
+                            <h3 class="cs-h3">Tecnical University of the Philippines</h3>
+                            <p class="cs-item-text">
+                                <b>1st year Passer</b>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <!--==================== ADVICE AND EXPERIENCE ====================-->
+
+        <section class="experience section container" id="experience">
+            <h2 class="section__title">
+                Experience
+            </h2>
+            <p class="section__subtitle">
+                Many of the experiences I have had along the way have helped me become a better version of myself.</p>
+
+            <div class="experience__container grid">
+                <article class="experience__card">
+                    <div class="experience__icon">
+                        <img src="{% static 'img/coding.png' %}" alt="">
+                    </div>
+                    <h3 class="experience__title">Developing</h3>
+                    <p class="experience__description">
+                        As a student of major Computer, i have a experience of Developing such as website and Graphical Interface
+                    </p>
+                </article>
+
+                <article class="experience__card">
+                    <div class="experience__icon">
+                        <img src="{% static 'img/design.png' %}" alt="">
+                    </div>
+                    <h3 class="experience__title">Website Designing</h3>
+                    <p class="experience__description">
+                        Being junior developers, Ill start design Webpage such as aesthetic, minimalist and other design for webapge 
+                        deveoping or designing.
+                    </p>
+                </article>
+
+                <article class="experience__card">
+                    <div class="experience__icon">
+                        <img src="{% static 'img/team.png' %}" alt="">
+                    </div>
+                    <h3 class="experience__title">Team Work</h3>
+                    <p class="experience__description">
+                        As being a student of major Computer Programming we have develop a project successfully because I have good 
+                        communication skills and collaborative skills to achieve goals as a team.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <!--==================== Language ====================-->
+        <section class="experience section container" id="">
+            <h2 class="section__title">
+                Computer Programming Language
+            </h2>
+            <p class="section__subtitle">
+                As Future Developer there's alot of Computer Programming Language but two of them
+                i already use.
+            </p>
+
+            <div class="experience__container grid">
+                <article class="experience__card">
+                    <div class="experience__icon">
+                        <img src="{% static 'img/js.png' %}" alt=" ">
+                    </div>
+                    <span class="new__tag">Mastering</span>
+                    <h3 class="experience__title">JavaScripts</h3>
+                    <p class="experience__description">
+                        is a scripting language that enables you to create dynamically
+                        updating content, control multimedia, animate images, and pretty much everything else.
+                    </p>
+                </article>
+
+                <article class="experience__card">
+
+                    <div class="experience__icon">
+                        <img src="{% static 'img/py.png' %}" alt="">
+                    </div>
+                    <span class="new__tag">Taking</span>
+                    <h3 class="experience__title">Python</h3>
+                    <p class="experience__description">
+                        is a high-level, general-purpose programming language. Its design philosophy emphasizes code
+                        readability with
+                        the use of significant indentation. Python is dynamically typed and garbage-collected.
+                    </p>
+                </article>
+
+                <article class="experience__card">
+                    <div class="experience__icon">
+
+                        <img src="{% static 'img/php.png' %}" alt="">
+                    </div>
+                    <span class="new__tag">Adapting</span>
+                    <h3 class="experience__title">PHP</h3>
+                    <p class="experience__description">
+                        Hypertext Preprocessor. Original it supposedly meant personal home page. It is 
+                        an open source, server-side, HTML embedded scripting language used to create dynamic Web pages.
+                    </p>
+                </article>
+
+                <article class="experience__card">
+                    <div class="experience__icon">
+                        <img src="{% static 'img/java.png' %}" alt="">
+                    </div>
+                    <span class="new__tag">Requiring</span>
+                    <h3 class="experience__title">Java</h3>
+                    <p class="experience__description">
+                        is a high-level, general-purpose programming language. Its design philosophy emphasizes code
+                        readability with the use of significant indentation. 
+                    </p>
+                </article>
+                <article class="experience__card">
+                    <div class="experience__icon">
+                        <img src="{% static 'img/sql.png' %}" alt="">
+                    </div>
+                    <span class="new__tag">Taking</span>
+                    <h3 class="experience__title">SQL</h3>
+                    <p class="experience__description">
+                        is a relational database management system (RDBMS) 
+                        developed by Oracle that is based on structured query language (SQL).
+                    </p>
+                </article>
+            </div>
+        </section>
+
+
+        <!--==================== Portfolio ====================-->
+        <main class="main" id="portfolio">
+            <section id="gallery-404">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <h2 class="section__title">
+                            PORTFOLIO
+                        </h2>
+                        <p class="section__subtitle">
+                            Explore a world where creativity meets innovation, where ideas come to life in pixels and
+                            paintbrush strokes.
+                        </p>
+                    </div>
+                    <div class="cs-button-group">
+                        <button class="cs-button" data-filter="one">
+                            <b>WEBPAGE</b>
+                        </button>
+                        <button class="cs-button" data-filter="two">
+                            <b>UI</b>
+                        </button>
+                        <button class="cs-button" data-filter="three">
+                            <b>OTHERS</b>
+                        </button>
+                    </div>
+                </div>
+                <article>
+                        <!--Gallery 2-->
+                        <div class="cs-gallery cs-hidden " data-category="one">
+                            <!--Picture 4-->
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/dweb.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/dweb.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="h{% static 'img/dweb.png' %}" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                            <!--Picture 2-->
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/web.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/web.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/web.png' %}ery5.jpg" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                            <!--Picture 3-->
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/web3.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/web3.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/web3.png' %}" alt="2"
+                                    width="305" height="400">
+                            </picture>
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/web2.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/web2.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/web2.png' %}" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                        </div>
+                        <!--Gallery 3-->
+                        <div class="cs-gallery cs-hidden" data-category="two">
+                            <!--Picture 1-->
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/ui.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/ui.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/ui.png' %}" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                            <!--Picture 2--> 
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/ui1.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/ui1.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/ui1.png' %}" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                        </div>
+                    
+                        <!--Gallery 4-->
+                        <div class="cs-gallery cs-hidden" data-category="three">
+                            <!--Picture 1-->    
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/diy.jpg' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/diy.jpg' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/diy.jpg' %}" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                            <!--Picture 2-->
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/darts.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/darts.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/darts.png' %}" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                            <!--Picture 3-->
+                            <picture class="cs-image preview-trigger">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/mphoto.png' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/mphoto.png' %}">
+                                <img loading="lazy" decoding="async"
+                                    src="{% static 'img/photo.png' %}" alt="gallery"
+                                    width="305" height="400">
+                            </picture>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <script src="{% static 'js/sub.js' %}"></script>
+        </main>
+
+        <!--==================== NEW ====================-->
+        <section class="new section container">
+            <h2 class="section__title">
+                New Accomplishment
+            </h2>
+            <p class="section__subtitle">
+                I have a new accomplishment that add on the portfolio after five days.
+            </p>
+
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide preview-trigger">
+                            <span class="new__tag">New</span>
+
+                            <img src="{% static 'img/fdep.png' %}" alt="" class="new__img ">
+
+                            <div class="new__data">
+                                <h3 class="new__title">First Deployment</h3>
+                            </div>
+
+                        </article>
+
+                        <article class="new__card swiper-slide preview-trigger">
+                            <span class="new__tag">New</span>
+
+                            <img src="{% static 'img/fart.png' %}" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Final Digital Arts</h3>
+                            </div>
+
+                        </article>
+                        <article class="new__card swiper-slide preview-trigger">
+                            <span class="new__tag">New</span>
+
+                            <img src="{% static 'img/wport.png' %}" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Complete Webpage</h3>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                   Gallery                    -->
+        <!-- ============================================ -->
+        <main class="main-gallery" id="gallery">
+            <section id="gallery-43">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        ________________________
+                        <h2 class="gallery__title">
+                            Gallery
+                        </h2>
+                    </div>
+
+                    <div class="cs-image-group">
+                        <!-- Image 1 -->
+                        <a class="cs-item preview-trigger">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)" srcset="{% static 'img/pic1.jpg' %}">
+                                <source media="(min-width: 601px)" srcset="{% static 'img/pic1.jpg' %}">
+                                <img loading="lazy" decoding="async" src="{% static 'img/pic1.jpg' %}" alt="fancy house"
+                                    width="346" height="346">
+                            </picture>
+                            <!-- Hover Box -->
+                            <div class="cs-hover-box">
+                                <picture class="cs-icon">
+                                    <img loading="lazy" decoding="async" src="{% static 'img/view.png' %}" alt=""
+                                        width="20" height="20" aria-hidden="true">
+                                </picture>
+                                <h3 class="cs-h3">Student's Day</h3>
+                                <p class="cs-hover-box-text">
+                                    TUPC Conduct Student and every student of the campus can join.
+                                </p>
+                            </div>
+                        </a>
+                        <!-- Image 2 -->
+                        <a class="cs-item preview-trigger">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)" srcset="{% static 'img/img1.jpg' %}">
+                                <source media="(min-width: 601px)" srcset="{% static 'img/img1.jpg' %}">
+                                <img loading="lazy" decoding="async" src="{% static 'img/img1.jpg' %}"
+                                    alt="modern house" width="346" height="346">
+                            </picture>
+                            <!-- Hover Box -->
+                            <div class="cs-hover-box">
+                                <picture class="cs-icon">
+                                    <img loading="lazy" decoding="async" src="{% static 'img/view.png' %}" alt=""
+                                        width="20" height="20" aria-hidden="true">
+                                </picture>
+                                <h3 class="cs-h3">Coffee Project</h3>
+                                <p class="cs-hover-box-text">
+                                    Newest Coffee Project in Bounderies between Laspiñas and Bacoor.
+                                </p>
+                            </div>
+                        </a>
+                        <!-- Image 3 -->
+                        <a class="cs-item preview-trigger">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)" srcset="{% static 'img/img2.jpg' %}">
+                                <source media="(min-width: 601px)" srcset="{% static 'img/img2.jpg' %}">
+                                <img aria-hidden="true" loading="lazy" decoding="async"
+                                    src="{% static 'img/img2.jpg' %}" alt="modern home at night" width="346"
+                                    height="346">
+                            </picture>
+                            <!-- Hover Box -->
+                            <div class="cs-hover-box">
+                                <picture class="cs-icon">
+                                    <img loading="lazy" decoding="async" src="{% static 'img/view.png' %}" alt=""
+                                        width="20" height="20" aria-hidden="true">
+                                </picture>
+                                <h3 class="cs-h3">Testing Practice</h3>
+                                <p class="cs-hover-box-text">
+                                    A Day of BTVTED-CP student trying execute Test in Web Development.
+                                </p>
+                            </div>
+                        </a>
+                        <!-- Image 4 -->
+                        <a class="cs-item preview-trigger">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/img5.jpg' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/img5.jpg' %}">
+                                <img aria-hidden="true" loading="lazy" decoding="async"
+                                    src="{% static 'img/img5.jpg' %}" alt="appliance"
+                                    width="346" height="346">
+                            </picture>
+                            <!-- Hover Box -->
+                            <div class="cs-hover-box">
+                                <picture class="cs-icon">
+                                    <img loading="lazy" decoding="async" src="{% static 'img/view.png' %}" alt=""
+                                        width="20" height="20" aria-hidden="true">
+                                </picture>
+                                <h3 class="cs-h3">Modern Architectual Design</h3>
+                                <p class="cs-hover-box-text">
+                                    Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
+                                </p>
+                            </div>
+                        </a>
+                        <!-- Image 5 -->
+                        <a class="cs-item preview-trigger">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/img3.jpg' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/img3.jpg' %}">
+                                <img aria-hidden="true" loading="lazy" decoding="async"
+                                    src="{% static 'img/img3.jpg' %}" alt="appliance"
+                                    width="346" height="346">
+                            </picture>
+                            <!-- Hover Box -->
+                            <div class="cs-hover-box">
+                                <picture class="cs-icon">
+                                    <img loading="lazy" decoding="async" src="{% static 'img/view.png' %}" alt=""
+                                        width="20" height="20" aria-hidden="true">
+                                </picture>
+                                <h3 class="cs-h3">Modern Architectual Design</h3>
+                                <p class="cs-hover-box-text">
+                                    Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
+                                </p>
+                            </div>
+                        </a>
+                        <!-- Image 6 -->
+                        <a class="cs-item preview-trigger">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                    srcset="{% static 'img/img4.jpeg' %}">
+                                <source media="(min-width: 601px)"
+                                    srcset="{% static 'img/img4.jpeg' %}">
+                                <img aria-hidden="true" loading="lazy" decoding="async"
+                                    src="{% static 'img/img4.jpeg' %}" alt="appliance"
+                                    width="346" height="346">
+                            </picture>
+                            <!-- Hover Box -->
+                            <div class="cs-hover-box">
+                                <picture class="cs-icon">
+                                    <img loading="lazy" decoding="async" src="{% static 'img/view.png' %}" alt=""
+                                        width="20" height="20" aria-hidden="true">
+                                </picture>
+                                <h3 class="cs-h3">Modern Architectual Design</h3>
+                                <p class="cs-hover-box-text">
+                                    Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+<div id="imagePreviewModal" class="modal">
+    <span class="close" onclick="closePreview()">&times;</span>
+    <img class="modal-content" id="previewedImage">
+</div>
+        <hr>
+
+        <!--                Contact Form                  -->
+        <main class="main">
+            <section id="cs-contact-490">
+                <div class="cs-container">
+                    <!-- Contact Info -->
+                    <div class="cs-content">
+                        <h1 class="contact__title ">Contact Me</h1>
+                        <br>
+                        <h2 class="cs-title">Contact Information</h2>
+                        <p class="cs-text">
+                            I'd love to hear from you! Whether you have questions, feedback, or just want to say hello, 
+                            I'm here to assist you. Reach out to me using any of the methods below:
+                        </p>
+                        <br>
+                        <!--Address-->
+                        <span class="cs-header">Address</span>
+                        <a href="https://www.google.com/maps/search/14.419378,+120.995501?entry=tts&g_ep=EgoyMDI0MDYwMi4wKgBIAVAD" target="_blank" class="cs-link">
+                            BLK 22 LOT 26 Ubas st Talon V, <br>Las Piñas City, Metro Manila
+                        </a>
+                        <!--Email-->
+                        <span class="cs-header">Email</span>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXFBHrTmJLgfDnflZMSzvqwVHxxRxpVnRvZzFjwJtpnpGzGccsRwzLNLXcJSwJWwSjXPC" target="_blank" class="cs-link">reymondjames.ramos@gsfe.tupcavite.edu.ph</a>
+                        <!--Phone-->
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:+639319816737" class="cs-link">+639319816737</a>
+
+                        <!--Social Buttons-->
+                        <div class="cs-social">
+                            <a class="cs-social-link" aria-label="visit google profile" href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXFBHrTmJLgfDnflZMSzvqwVHxxRxpVnRvZzFjwJtpnpGzGccsRwzLNLXcJSwJWwSjXPC">
+                                <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async"
+                                    src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google"
+                                    width="11" height="11">
+                            </a>
+                            <a class="cs-social-link" aria-label="visit facebook profile" href="https://www.facebook.com/profile.php?id=100073496212505">
+                                <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async"
+                                    src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook"
+                                    width="6" height="11">
+                            </a>
+                            <a class="cs-social-link" aria-label="visit instagram profile" href="https://www.instagram.com/_emond_/">
+                                <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async"
+                                    src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram"
+                                    width="11" height="11">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Form -->
+                    <form id="cs-form-490" name="Contact Form" method="post">
+                        <label class="cs-label">
+                            Name
+                            <input class="cs-input" required type="text" id="name" name="name"
+                                placeholder="Reymond Ramos">
+                        </label>
+                        <label class="cs-label">
+                            Email
+                            <input class="cs-input" required type="text" id="email" name="email"
+                                placeholder="name@company.com">
+                        </label>
+                        <label class="cs-label">
+                            Phone
+                            <input class="cs-input" required type="text" id="phone" name="phone"
+                                placeholder="(+63) 931 981 6737">
+                        </label>
+                        <label class="cs-label">
+                            Subject
+                            <input class="cs-input" type="text" id="subject" name="find-us"
+                                placeholder="Social Media, Family, Friend...">
+                        </label>
+                        <label class="cs-label -label-message">
+                            Message
+                            <textarea class="cs-input" required name="Message" i    d="message"
+                                placeholder="Hello, I’m interested in..."></textarea>
+                        </label>
+                        <button class="cs-button-solid" type="submit">Submit Message Now</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <hr>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Local Address</h3>
+
+                    <ul class="footer__list">
+                        <li>Blk 22 Lot26</li>
+                        <li>Ubas st Talon V</li>
+                        <li>Las Piñas City, Metro Manila</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Learning Reference</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="https://www.youtube.com/@Bedimcode" class="footer__link">@Bedimcode</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/" class="footer__link">W3schools</a>
+                        </li>
+                        <li>
+                            <a href="https://www.codecademy.com" class="footer__link">Codecademy</a>
+                        </li>
+                        <li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Deployment Webpage</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="https://longexam.pythonanywhere.com/" class="footer__link">About ME Page</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">__________</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/profile.php?id=100073496212505" target="_blank"
+                            class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXFBHrTmJLgfDnflZMSzvqwVHxxRxpVnRvZzFjwJtpnpGzGccsRwzLNLXcJSwJWwSjXPC"
+                            target="_blank" class="footer__social-link">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/_emond_/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__ink">TUPC. Front-end Developer</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+        <!--=============== MAIN JS ===============-->
+        <script src="{% static 'js/scripts.js' %}"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+    </main>
+</body>
+
+</html>
